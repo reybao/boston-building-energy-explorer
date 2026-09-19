@@ -6,6 +6,10 @@ Compare similar buildings and identify priorities for further investigation.
 
 A lightweight static website for Boston energy planners, building managers and community sustainability organizations. No backend, authentication or JavaScript dependencies are required. The website, analysis, methodology and presentation are in English.
 
+## Obtain the project
+
+This GitHub delivery contains `project-source.zip`, the complete project with its original directory structure: `redesign/`, `dist/`, `scripts/`, `tests/`, requirements and documentation. Download and extract it before running the commands below. The same package is linked under Data & methods on the public website. The original workbook is deliberately excluded; use the official source to reproduce processing.
+
 ## Run locally
 
 From this project directory, run:
@@ -81,7 +85,7 @@ Scenario energy difference = `max(0, calculated_eui - peer_median) * area * frac
 
 Run `python3 scripts/package_source.py` and `python3 scripts/build_site.py`, then publish `build/` on any static host. Every data file and course deliverable must be served. Hash navigation supports static hosting without rewrite rules. `.openai/hosting.json` retains the registered Sites identity and static directory. Do not create a second Site for this checkout.
 
-The public website and repository URLs are recorded in `dist/data/delivery.json`. The shared course submission spreadsheet is intentionally untouched; the user must explicitly request any PS1-column edit.
+The public website and repository URLs are recorded in `dist/data/delivery.json`. The course submission spreadsheet was updated with explicit user authorization on September 19, 2026: Rey Bao, row 17, PS1 Site URL (M17) and PS1 Repo (N17).
 
 ## Limits
 
