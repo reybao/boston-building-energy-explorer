@@ -1,0 +1,125 @@
+{
+  "voice": "en-US-AvaMultilingualNeural",
+  "segments": [
+    {
+      "start": 0.25,
+      "duration": 9.792,
+      "speed_adjustment": 1,
+      "script": "Let's start with one question. Among similar Boston buildings, which ones deserve a closer look at energy use, and which records need a data check first?"
+    },
+    {
+      "start": 14.25,
+      "duration": 13.008,
+      "speed_adjustment": 1,
+      "script": "This explorer helps energy planners, building managers, and community groups work through that question. We'll follow a simple path: explore an area, compare a building, and try a scenario."
+    },
+    {
+      "start": 30.25,
+      "duration": 12.072,
+      "speed_adjustment": 1,
+      "script": "First, choose a building use and a reported zip code. The map compares energy used per square foot, so we're looking at intensity, rather than simply finding the largest buildings."
+    },
+    {
+      "start": 45.25,
+      "duration": 11.568,
+      "speed_adjustment": 1,
+      "script": "Here's how to read the colors. Blue means more than ten percent lower than the comparison level. Amber means more than ten percent higher. Gray-blue falls within that middle range."
+    },
+    {
+      "start": 60.25,
+      "duration": 11.904,
+      "speed_adjustment": 1,
+      "script": "You can zoom out to Massachusetts, then return to Boston. These are real zip code boundaries. The energy data comes from Boston's disclosure, so the map doesn't represent the entire state."
+    },
+    {
+      "start": 75.25,
+      "duration": 14.43,
+      "speed_adjustment": 1.036,
+      "script": "Let's look at zip code zero two one two seven. There are 141 reported multifamily buildings, with 138 valid comparisons. The typical relative energy use here is about seven percent higher."
+    },
+    {
+      "start": 90.25,
+      "duration": 12.168,
+      "speed_adjustment": 1,
+      "script": "Now let's search for building one zero zero zero eight three, at twenty-one to twenty-three Beacon Street. The comparison on the right matches it with buildings of similar use and size."
+    },
+    {
+      "start": 105.25,
+      "duration": 13.632,
+      "speed_adjustment": 1,
+      "script": "This building uses 93.6 thousand British thermal units per square foot per year. The comparison median is 53.4. That makes its energy intensity about seventy-five percent higher."
+    },
+    {
+      "start": 120.25,
+      "duration": 14.429,
+      "speed_adjustment": 1.028,
+      "script": "The reference group contains 159 eligible multifamily buildings. They're in roughly the one-hundred-thousand to two-hundred-fifty-thousand square-foot range. You can expand the assumptions to check the exact band and source values."
+    },
+    {
+      "start": 135.25,
+      "duration": 13.776,
+      "speed_adjustment": 1,
+      "script": "Notice that this reference stays fixed when we change filters. That's important for a consistent comparison. Higher energy intensity tells us where to investigate; it doesn't prove the building is poorly managed."
+    },
+    {
+      "start": 150.25,
+      "duration": 13.176,
+      "speed_adjustment": 1,
+      "script": "So our first recommendation is to check operating hours, occupancy, and metering. Those details can help explain the difference before anyone chooses an energy audit or starts planning a retrofit."
+    },
+    {
+      "start": 165.25,
+      "duration": 10.728,
+      "speed_adjustment": 1,
+      "script": "Next, let's try a scenario. We're asking what energy use would look like if this building moved partway toward its comparison-group median. The controls let us explore that gap."
+    },
+    {
+      "start": 180.25,
+      "duration": 14.429,
+      "speed_adjustment": 1.016,
+      "script": "At zero percent, nothing changes. The reported total stays the same. Records without valid comparison data are excluded from the calculation; missing information is never treated as zero energy use."
+    },
+    {
+      "start": 195.25,
+      "duration": 12.168,
+      "speed_adjustment": 1,
+      "script": "Moving halfway toward typical use gives a difference of two point six five million K B T U. That's about twenty-one percent of reported energy, not fifty percent."
+    },
+    {
+      "start": 210.25,
+      "duration": 11.544,
+      "speed_adjustment": 1,
+      "script": "At one hundred percent, the full gap is about five point three million K B T U. This is a benchmark illustration, not a prediction of achievable savings."
+    },
+    {
+      "start": 225.25,
+      "duration": 11.88,
+      "speed_adjustment": 1,
+      "script": "We can also apply the scenario to the current map selection, then download the result. Every building keeps its own reference group. Buildings already below their median stay unchanged."
+    },
+    {
+      "start": 240.25,
+      "duration": 13.224,
+      "speed_adjustment": 1,
+      "script": "For a deeper look, open Charts and records. You'll find distributions, an interactive scatterplot, and a searchable table. The filters work together, and you can export the selected records."
+    },
+    {
+      "start": 255.25,
+      "duration": 13.272,
+      "speed_adjustment": 1,
+      "script": "Our second recommendation is to check questionable inputs first. This example has negative energy values, so it belongs in data review. It should not be used to calculate an energy-saving scenario."
+    },
+    {
+      "start": 270.25,
+      "duration": 13.968,
+      "speed_adjustment": 1,
+      "script": "There are a few important limits. Campus summaries are kept separate from their member buildings. And one disclosure release cannot tell us about annual trends, policy effects, or verified retrofit savings."
+    },
+    {
+      "start": 285.25,
+      "duration": 14.43,
+      "speed_adjustment": 1.035,
+      "script": "You'll find the data, methodology, and reflection under Data and methods. Remember, twenty twenty-five is the release label; the energy-use year remains unconfirmed. Use these comparisons to ask better questions."
+    }
+  ]
+}

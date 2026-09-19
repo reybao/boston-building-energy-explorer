@@ -1,0 +1,79 @@
+1
+00:00:00,000 --> 00:00:14,000
+Which buildings warrant energy investigation—and which records need data review first?
+
+2
+00:00:14,000 --> 00:00:30,000
+This explorer supports Boston energy planners, building managers and community sustainability organizations.
+
+3
+00:00:30,000 --> 00:00:45,000
+Start with building use and a reported ZIP area. Map colors compare energy per square foot with similar buildings.
+
+4
+00:00:45,000 --> 00:01:00,000
+Blue: more than 10% lower. Amber: more than 10% higher. Gray-blue: within 10% of the comparison level.
+
+5
+00:01:00,000 --> 00:01:15,000
+The map uses real Massachusetts ZIP boundaries. It represents Boston disclosure records, not all buildings in the state.
+
+6
+00:01:15,000 --> 00:01:30,000
+ZIP 02127 has 141 reported Multifamily buildings and 138 with valid comparisons. Its typical relative use is 7% higher.
+
+7
+00:01:30,000 --> 00:01:45,000
+Search for BERDO 100083: 21–23 Beacon Street. Compare its energy intensity with buildings of similar use and size.
+
+8
+00:01:45,000 --> 00:02:00,000
+This building uses 93.6 kBtu per square foot per year. Its comparison-group median is 53.4: about 75% higher.
+
+9
+00:02:00,000 --> 00:02:15,000
+The reference contains 159 eligible Multifamily buildings in the 100,000–249,999 square-foot size band.
+
+10
+00:02:15,000 --> 00:02:30,000
+Benchmarks stay fixed when filters change. High energy intensity is a reason to investigate, not proof of poor management.
+
+11
+00:02:30,000 --> 00:02:45,000
+First recommendation: verify operating hours, occupancy and metering before choosing an energy audit or retrofit study.
+
+12
+00:02:45,000 --> 00:03:00,000
+The scenario asks what happens if a building moves partway toward its similar-building median.
+
+13
+00:03:00,000 --> 00:03:15,000
+At 0%, no change is applied. Missing or ineligible data is excluded rather than treated as zero.
+
+14
+00:03:15,000 --> 00:03:30,000
+At 50%, this example moves halfway toward typical use: a 2.65 million kBtu difference, or 21% of reported energy.
+
+15
+00:03:30,000 --> 00:03:45,000
+At 100%, the full above-median gap is closed: 5.30 million kBtu. This is an illustration, not verified engineering savings.
+
+16
+00:03:45,000 --> 00:04:00,000
+The same calculation can apply to the current map selection. Buildings already below their median stay unchanged.
+
+17
+00:04:00,000 --> 00:04:15,000
+The full analysis includes distributions, an interactive scatterplot, and a searchable table with coordinated filters and CSV export.
+
+18
+00:04:15,000 --> 00:04:30,000
+Second recommendation: review invalid inputs first. BERDO 102879 has negative energy values and must not enter an energy scenario.
+
+19
+00:04:30,000 --> 00:04:45,000
+Campus summaries and member buildings are kept separate. A single disclosure cannot establish trends, policy effects or achievable savings.
+
+20
+00:04:45,000 --> 00:05:00,000
+Data, methodology and reflection are available in Data & methods. The release is labeled 2025; the energy-use year remains unconfirmed.
