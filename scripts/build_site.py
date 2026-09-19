@@ -1,6 +1,7 @@
 """Assemble the reviewed interface and course materials into build/."""
 from pathlib import Path
 import shutil
+import gzip
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'build'
@@ -8,10 +9,20 @@ EXCLUDE = {
     'project-source.zip', 'boston-energy-walkthrough.webm',
     'boston-energy-walkthrough.mp4', 'boston-energy-walkthrough-narrated.mp4',
     'narration-timing.json', 'walkthrough-narration-draft.md',
-    'natural-voice-preview.mp3',
+    'natural-voice-preview.mp3', 'buildings.csv.gz', 'aggregate-entities.csv.gz',
 }
 
+def restore_data():
+    """Restore large CSV downloads from their lossless GitHub storage copies."""
+    for name in ('buildings.csv', 'aggregate-entities.csv'):
+        target = ROOT / 'dist/data' / name
+        compressed = target.with_suffix(target.suffix + '.gz')
+        if not target.exists() and compressed.exists():
+            with gzip.open(compressed, 'rb') as source, target.open('wb') as output:
+                shutil.copyfileobj(source, output)
+
 def build():
+    restore_data()
     if OUT.exists():
         shutil.rmtree(OUT)
     for source in (ROOT / 'dist').rglob('*'):
