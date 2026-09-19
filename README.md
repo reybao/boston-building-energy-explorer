@@ -8,13 +8,14 @@ A lightweight static website for Boston energy planners, building managers and c
 
 ## Obtain the project
 
-This GitHub delivery contains `project-source.zip`, the complete project with its original directory structure: `redesign/`, `dist/`, `scripts/`, `tests/`, requirements and documentation. Download and extract it before running the commands below. The same package is linked under Data & methods on the public website. The original workbook is deliberately excluded; use the official source to reproduce processing.
+The repository contains the complete project as browsable folders: `redesign/`, `dist/`, `scripts/`, and `tests/`, plus requirements and documentation. Use GitHub’s **Code → Download ZIP** and extract it, or clone the repository. Run the commands below from the extracted repository root. The root `project-source.zip` is an additional packaged copy. The original workbook is deliberately excluded; obtain it from the official source only if you want to reproduce data processing. The generated public data is already included for running the website.
 
 ## Run locally
 
 From this project directory, run:
 
 ```sh
+python3 scripts/package_source.py
 python3 scripts/build_site.py
 python3 -m http.server 8765 --bind 127.0.0.1 --directory build
 ```

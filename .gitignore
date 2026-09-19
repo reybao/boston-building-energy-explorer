@@ -1,0 +1,15 @@
+.DS_Store
+*.xlsx
+__pycache__/
+.venv/
+tmp/
+.sites-runtime/
+node_modules/
+dist/deliverables/project-source.zip
+build/
+dist/deliverables/boston-energy-walkthrough.webm
+dist/deliverables/boston-energy-walkthrough.mp4
+dist/deliverables/boston-energy-walkthrough-narrated.mp4
+dist/deliverables/narration-timing.json
+dist/deliverables/walkthrough-narration-draft.md
+dist/deliverables/natural-voice-preview.mp3
