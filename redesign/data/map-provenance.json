@@ -1,0 +1,18 @@
+{
+  "source": "MassGIS ZIP Codes (5-Digit) from HERE",
+  "url": "https://services1.arcgis.com/hGdibHYSPO59RG1h/ArcGIS/rest/services/ZIP_Codes_5_Digit_from_HERE/FeatureServer/0",
+  "attribution": "HERE, MassGIS",
+  "fetched_at": "2026-09-18T22:38:41.021168+00:00",
+  "query": {
+    "where": "1=1",
+    "outFields": "POSTCODE,PC_NAME,CITY_TOWN",
+    "returnGeometry": "true",
+    "outSR": "4326",
+    "geometryPrecision": "5",
+    "maxAllowableOffset": "0.00005",
+    "f": "geojson"
+  },
+  "source_sha256": "d938670366e34e4f242c62f7502c70f027fcef7fb8fc9f156a5e29edecbfe61e",
+  "features": 552,
+  "note": "ZIP delivery-area polygons, not neighborhoods or building locations. Source uses HERE Q2 2018, with Boston boundary edits documented March 2024. Current service snapshot retained; boundaries may change."
+}
