@@ -13,3 +13,7 @@ dist/deliverables/boston-energy-walkthrough-narrated.mp4
 dist/deliverables/narration-timing.json
 dist/deliverables/walkthrough-narration-draft.md
 dist/deliverables/natural-voice-preview.mp3
+
+# Restored automatically from the GitHub compressed data copies.
+dist/data/buildings.csv
+dist/data/aggregate-entities.csv

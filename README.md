@@ -10,6 +10,8 @@ A lightweight static website for Boston energy planners, building managers and c
 
 The repository contains the complete project as browsable folders: `redesign/`, `dist/`, `scripts/`, and `tests/`, plus requirements and documentation. Use GitHub’s **Code → Download ZIP** and extract it, or clone the repository. Run the commands below from the extracted repository root. The root `project-source.zip` is an additional packaged copy. The original workbook is deliberately excluded; obtain it from the official source only if you want to reproduce data processing. The generated public data is already included for running the website.
 
+Two large CSV downloads (`buildings.csv` and `aggregate-entities.csv`) are stored losslessly as `.csv.gz` files in GitHub to fit browser-upload limits. The packaging and build scripts automatically restore the original CSV files. The public website provides ordinary CSV downloads.
+
 ## Run locally
 
 From this project directory, run:
